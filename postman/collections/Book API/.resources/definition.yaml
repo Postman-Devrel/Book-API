@@ -1,0 +1,4 @@
+$kind: collection
+description: CRUD operations for the Book API. Includes tests for contract validation.
+variables:
+  baseUrl: http://localhost:3000
