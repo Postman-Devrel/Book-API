@@ -1,0 +1,4 @@
+$kind: http-request
+method: GET
+url: '{{baseUrl}}/api/v1/books/{{bookId}}'
+order: 2000
