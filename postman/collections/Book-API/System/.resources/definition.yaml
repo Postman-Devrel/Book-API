@@ -1,0 +1,4 @@
+$kind: collection
+name: System
+description: System endpoints for health checks and API information
+order: 1000
