@@ -1,0 +1,6 @@
+$kind: http-request
+name: Delete Book
+description: Delete a book by ID
+method: DELETE
+url: '{{baseUrl}}/api/v1/books/{{bookId}}'
+order: 5000

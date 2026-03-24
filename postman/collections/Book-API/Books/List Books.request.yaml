@@ -1,0 +1,6 @@
+$kind: http-request
+name: List Books
+description: Get all books
+method: GET
+url: '{{baseUrl}}/api/v1/books'
+order: 1000
