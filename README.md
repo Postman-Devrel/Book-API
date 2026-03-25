@@ -30,7 +30,7 @@ No authentication required.
 curl http://localhost:3000/api/v1/books
 ```
 
-**Create book**
+**Create book endpoint**
 ```bash
 curl -X POST http://localhost:3000/api/v1/books \
   -H "Content-Type: application/json" \
