@@ -44,7 +44,7 @@ curl -X PUT http://localhost:3000/api/v1/books/1 \
   -d '{"title":"Dune","author":"Frank Herbert","year":1965}'
 ```
 
-**Delete book**
+**Delete a book**
 ```bash
 curl -X DELETE http://localhost:3000/api/v1/books/1
 ```
