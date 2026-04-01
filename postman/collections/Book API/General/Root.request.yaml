@@ -1,0 +1,6 @@
+$kind: http-request
+name: Root
+description: Returns API info and documentation link
+method: GET
+url: '{{baseUrl}}/'
+order: 1000

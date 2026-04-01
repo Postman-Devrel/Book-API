@@ -1,0 +1,6 @@
+$kind: http-request
+name: Health Check
+description: Health check endpoint returning status and timestamp
+method: GET
+url: '{{baseUrl}}/health'
+order: 2000

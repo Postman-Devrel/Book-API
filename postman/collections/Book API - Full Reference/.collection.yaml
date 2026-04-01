@@ -1,0 +1,73 @@
+$kind: collection
+description: >-
+  # 📚 Book API - Full Reference
+
+
+  This collection is a complete API reference for the **Book API**, a RESTful
+  service built with Express.js for managing a book catalog. It covers every
+  available endpoint, organized into logical folders for easy navigation.
+
+
+  ## Base URL
+
+
+  `http://localhost:3000`
+
+
+  > The base URL is stored in the `{{baseUrl}}` collection variable and is
+  referenced across all requests.
+
+
+  ## 📂 Folders
+
+
+  ### General
+
+  Utility endpoints for checking API status and retrieving service information.
+
+
+  | Method | Endpoint | Description |
+
+  |--------|----------|-------------|
+
+  | `GET` | `/` | Returns API info and documentation link |
+
+  | `GET` | `/health` | Returns the health status of the API with a timestamp |
+
+
+  ### Books
+
+  Full CRUD operations for managing books in the catalog.
+
+
+  | Method | Endpoint | Description |
+
+  |--------|----------|-------------|
+
+  | `GET` | `/api/v1/books` | List all books |
+
+  | `GET` | `/api/v1/books/:id` | Get a single book by ID |
+
+  | `POST` | `/api/v1/books` | Create a new book |
+
+  | `PUT` | `/api/v1/books/:id` | Update an existing book |
+
+  | `DELETE` | `/api/v1/books/:id` | Delete a book by ID |
+
+
+  ## 🚀 Getting Started
+
+
+  1. **Set the base URL** — The `{{baseUrl}}` variable defaults to
+  `http://localhost:3000`. Update it in the collection variables if your server
+  runs on a different host or port.
+
+  2. **Start with General** — Use the **Root** and **Health Check** requests to
+  verify the API is running.
+
+  3. **Manage Books** — Use the **Books** folder to create, read, update, and
+  delete book records. A book requires a `title` and `author`; `year` and
+  `publisher` are optional.
+variables:
+  - key: baseUrl
+    value: 'http://localhost:3000'

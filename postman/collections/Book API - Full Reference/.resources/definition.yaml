@@ -1,0 +1,4 @@
+$kind: collection
+name: Book API - Full Reference
+variables:
+  baseUrl: ""

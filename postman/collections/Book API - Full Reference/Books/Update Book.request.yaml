@@ -1,0 +1,19 @@
+$kind: http-request
+name: Update Book
+description: 'Updates an existing book by ID. All fields are optional in the update payload. Returns 404 if the book is not found, 400 if validation fails.'
+method: PUT
+url: '{{baseUrl}}/api/v1/books/:id'
+order: 4000
+pathVariables:
+  - key: id
+    value: '1'
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "title": "The Great Gatsby (Revised)",
+      "year": 1925
+    }

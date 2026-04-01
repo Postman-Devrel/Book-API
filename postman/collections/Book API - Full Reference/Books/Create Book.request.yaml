@@ -1,0 +1,18 @@
+$kind: http-request
+name: Create Book
+description: 'Creates a new book. Requires `title` (string, required) and `author` (string, required). Optional fields: `year` (non-negative integer) and `publisher` (string).'
+method: POST
+url: '{{baseUrl}}/api/v1/books'
+order: 3000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "year": 1965,
+      "publisher": "Chilton Books"
+    }

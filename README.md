@@ -23,7 +23,7 @@ Base URL: **http://localhost:3000**
 
 No authentication required.
 
-## Examples
+## Examples Of X
 
 **List books**
 ```bash
