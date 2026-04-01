@@ -1,0 +1,7 @@
+$kind: mcp-request
+transport: stdio
+command: ""
+message: ""
+settings:
+  requestTimeout: 0
+order: 1775040399311

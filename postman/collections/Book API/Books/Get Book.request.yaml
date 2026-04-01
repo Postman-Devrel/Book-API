@@ -1,0 +1,10 @@
+$kind: http-request
+name: Get Book
+description: Get a specific book by ID
+method: GET
+url: '{{baseUrl}}/api/v1/books/{{bookId}}'
+order: 2000
+pathVariables:
+  - key: bookId
+    value: '{{bookId}}'
+    description: The unique identifier of the book

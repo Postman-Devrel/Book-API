@@ -1,0 +1,6 @@
+$kind: http-request
+name: List Books
+description: Retrieves all books in the database. Returns an array of book objects.
+method: GET
+url: '{{baseUrl}}/api/v1/books'
+order: 1000
