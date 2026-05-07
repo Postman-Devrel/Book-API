@@ -1,0 +1,14 @@
+$kind: http-request
+name: Create Book
+method: POST
+url: '{{baseUrl}}/api/v1/books'
+description: 'Create a new book. Required fields: title (string), author (string). Optional: year (integer).'
+order: 3000
+body:
+  type: json
+  content: |-
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "year": 1925
+    }
